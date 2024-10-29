@@ -1,0 +1,20 @@
+:root{
+  --primary:#f9d363;
+  --secondary:#006B57;
+}
+.App {
+  text-align: center;
+}
+.bg-theme{
+  background-color: var(--primary);
+}
+.bg-theme-secondary{
+  background-color: var(--secondary);
+}
+.text-theme{
+  color: var(--primary);
+}
+.text-secondary{
+  color: var(--secondary);
+}
+

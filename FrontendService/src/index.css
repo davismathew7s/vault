@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+
+
+
+.rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.claimsss {
+  background-color: rgb(68, 13, 189);
+  color: #111;
+  padding: 8px 30px;
+  border-radius: 20px;
+  border: 2px solid #87a4fc;
+  /* margin: 15px auto; */
+  font-size: 1rem;
+  font-weight: 700;
+  min-width: 200px;
+  -webkit-transition: all .6s ease 0s;
+    transition: all .6s ease 0s;
+    pointer-events: none;
+}
+
+.claimsss.active {
+  display: none;
+}
